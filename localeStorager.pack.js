@@ -1,0 +1,1 @@
+var localeStorager={store:function(a,b){if(typeof b=="string"||typeof b=="number"||typeof b=="boolean"){localStorage.setItem(a,JSON.stringify(b))}else if(typeof b=="object"){localStorage.setItem(a,JSON.stringify(b,null,2))}},get:function(a){return JSON.parse(localStorage.getItem(a))},remove:function(a){localStorage.removeItem(a);return true}}
