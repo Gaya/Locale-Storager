@@ -21,11 +21,7 @@
 var localeStorager = {
     store: function (key, variable) {
         //check the kind of variable that has been put in.
-        if (typeof variable == "string" || typeof variable == "number" || typeof variable == "boolean") {
-            localStorage.setItem(key, JSON.stringify(variable));
-        } else if (typeof variable == "object") {
-            localStorage.setItem(key, JSON.stringify(variable, null, 2));
-        }
+        localStorage.setItem(key, JSON.stringify(variable));
     },
 
     get: function (key) {
