@@ -2,7 +2,7 @@ Locale Storager
 ===============
 
 A little script that helps in managing the localeStorage of the browser.<br />
-v 0.8 - January 10th 2012<br />
+v 0.9 - January 11th 2012<br />
 By Gaya Kessler - http://www.gayadesign.com
 
 Usage:
